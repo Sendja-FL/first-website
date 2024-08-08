@@ -1,0 +1,33 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background: #334155;
+  padding-top: 125px;
+}
+.tabs {
+  width: fit-content;
+  margin: 0 auto;
+}
+.tabs__container {
+  display: flex;
+  position: relative;
+  gap: 10px;
+}
+.tabs__tab {
+  padding: 8px;
+  font-size: 18px;
+  border: none;
+  background: none;
+  cursor: pointer;
+  color: #f1f1f1;
+}
+.tabs__smart-bar {
+  width: 0px;
+  height: 3px;
+  background-color: #f1f1f1;
+  border-radius: 20px;
+  transition: all 0.1s ease-in-out;
+}
