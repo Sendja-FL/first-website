@@ -12,4 +12,4 @@ function handelTabSwitch(e) {
   tabsSmartBar.style.transform = `translateX(${e.target.offsetLeft}px)`
 }
 
-// Test commit
+// Test commit 2
