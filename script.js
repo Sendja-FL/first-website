@@ -11,3 +11,5 @@ function handelTabSwitch(e) {
   tabsSmartBar.style.width = `${e.target.scrollWidth}px`
   tabsSmartBar.style.transform = `translateX(${e.target.offsetLeft}px)`
 }
+
+// Test commit
